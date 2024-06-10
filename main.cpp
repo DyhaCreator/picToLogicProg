@@ -20,7 +20,7 @@ sf::Event ev;
 sf::RenderWindow window = sf::RenderWindow(sf::VideoMode(Width * 2, Height), "PicToLogic");
 
 int main() {
-    window.setFramerateLimit(5);
+    window.setFramerateLimit(1);
     while(window.isOpen()){
         while(window.pollEvent(ev)){
             switch(ev.type){
@@ -65,6 +65,21 @@ int main() {
         convex.setPoint(2, sf::Vector2f(x3, y3));
 
         window.draw(convex);
+
+        convex.setPoint(0, sf::Vector2f(x1, Height - y1));
+        convex.setPoint(1, sf::Vector2f(x2, Height - y2));
+        convex.setPoint(2, sf::Vector2f(x3, Height - y3));
+
+        sf::RenderTexture render;
+        render.create(Width, Height);
+        render.clear();
+        render.draw(convex);
+        sprite.setTexture(render.getTexture());
+        sprite.setPosition(500, 0);
+        window.draw(sprite);
+
+        sf::Image triangle;
+        triangle = render.getTexture().copyToImage();
         window.display();
     }
     return 0;
