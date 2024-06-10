@@ -46,8 +46,32 @@ int main() {
     ofstream out("output");
     //out << "draw color 0 0 0 255 0 0\ndraw rect 0 0 100 100 0 0\ndrawflush display1" << endl;
     sf::Image img;
-    img.loadFromFile("test/4.png");
+    img.loadFromFile("test3.png");
     window.setFramerateLimit(1000);
+
+    if (mode == "-b") {
+        while(window.isOpen()){
+            while(window.pollEvent(ev)){
+                switch(ev.type){
+                case sf::Event::Closed:
+                    window.close();
+                    break;
+                }
+            }
+            window.clear(sf::Color(150, 150, 150));
+
+            sf::Texture texture;
+            texture.loadFromImage(img);
+            sf::Sprite sprite;
+            sprite.setTexture(texture);
+
+            window.draw(sprite);
+
+            out << "draw color 0 0 0 255 0 0\ndraw rect 0 0 100 100 0 0\ndrawflush display1" << endl;
+
+            window.display();
+        }
+    }
 
     if (mode == "-a") {
         int step = 0;
