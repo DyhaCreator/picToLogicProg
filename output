@@ -1,180 +1,38 @@
-draw color 0 0 0 255 0 0
-draw rect 0 0 100 100 0 0
+draw color 192 182 239 255 0 0
+draw triangle 105 94 90 196 7 128
 drawflush display1
-draw color 136 63 160 255 0 0
-draw triangle 10 161 191 188 197 46
+draw color 232 34 204 255 0 0
+draw triangle 6 96 10 198 99 189
+draw color 220 215 174 255 0 0
+draw triangle 92 178 2 95 78 96
+draw color 172 237 156 255 0 0
+draw triangle 98 196 98 135 31 197
+draw color 240 178 154 255 0 0
+draw triangle 34 142 107 138 52 200
+draw color 160 35 200 255 0 0
+draw triangle 39 133 29 91 0 195
+draw color 238 150 165 255 0 0
+draw triangle 72 129 107 198 103 105
+draw color 147 70 181 255 0 0
+draw triangle 12 200 8 126 1 115
+draw color 246 213 169 255 0 0
+draw triangle 30 104 52 197 107 111
+draw color 234 187 145 255 0 0
+draw triangle 71 104 98 188 30 185
+draw color 148 31 220 255 0 0
+draw triangle 0 110 54 150 11 97
 drawflush display1
-draw color 90 37 116 255 0 0
-draw triangle 174 70 44 140 3 38
+draw color 164 4 193 255 0 0
+draw triangle 31 200 41 188 4 91
+draw color 191 35 214 255 0 0
+draw triangle 0 188 25 180 1 146
+draw color 226 187 143 255 0 0
+draw triangle 98 94 2 95 90 118
+draw color 246 207 167 255 0 0
+draw triangle 11 200 91 174 72 199
+draw color 139 9 222 255 0 0
+draw triangle 28 187 3 200 5 108
+draw color 241 207 201 255 0 0
+draw triangle 106 124 39 133 68 177
 drawflush display1
-draw color 113 127 107 255 0 0
-draw triangle 47 4 2 11 21 147
-drawflush display1
-draw color 85 108 82 255 0 0
-draw triangle 3 14 164 11 159 179
-drawflush display1
-draw color 77 85 113 255 0 0
-draw triangle 7 200 185 191 146 14
-drawflush display1
-draw color 183 144 140 255 0 0
-draw triangle 189 186 199 36 16 134
-drawflush display1
-draw color 185 162 136 255 0 0
-draw triangle 3 145 19 76 132 153
-drawflush display1
-draw color 66 54 97 255 0 0
-draw triangle 24 35 157 7 64 151
-drawflush display1
-draw color 146 226 125 255 0 0
-draw triangle 19 131 2 170 42 194
-drawflush display1
-draw color 61 121 92 255 0 0
-draw triangle 8 78 196 35 193 82
-drawflush display1
-draw color 48 82 66 255 0 0
-draw triangle 96 70 133 185 43 89
-drawflush display1
-draw color 184 77 133 255 0 0
-draw triangle 123 87 12 200 1 117
-drawflush display1
-draw color 158 146 161 255 0 0
-draw triangle 131 174 161 199 102 184
-drawflush display1
-draw color 150 134 127 255 0 0
-draw triangle 120 150 17 149 6 94
-drawflush display1
-draw color 229 143 131 255 0 0
-draw triangle 189 179 92 184 133 153
-drawflush display1
-draw color 66 92 118 255 0 0
-draw triangle 126 134 102 188 61 25
-drawflush display1
-draw color 127 58 108 255 0 0
-draw triangle 48 53 8 4 99 24
-drawflush display1
-draw color 53 35 37 255 0 0
-draw triangle 32 74 186 75 107 34
-drawflush display1
-draw color 91 26 123 255 0 0
-draw triangle 179 7 199 54 90 29
-drawflush display1
-draw color 121 243 130 255 0 0
-draw triangle 1 147 1 31 16 14
-drawflush display1
-draw color 67 42 26 255 0 0
-draw triangle 20 2 137 17 143 9
-drawflush display1
-draw color 74 58 109 255 0 0
-draw triangle 66 182 44 94 113 168
-drawflush display1
-draw color 165 123 112 255 0 0
-draw triangle 22 129 2 59 4 25
-drawflush display1
-draw color 163 97 82 255 0 0
-draw triangle 50 110 83 118 141 51
-drawflush display1
-draw color 204 193 138 255 0 0
-draw triangle 108 197 172 106 133 86
-drawflush display1
-draw color 63 61 92 255 0 0
-draw triangle 99 42 79 144 134 15
-drawflush display1
-draw color 242 149 78 255 0 0
-draw triangle 126 198 178 190 156 170
-drawflush display1
-draw color 122 33 39 255 0 0
-draw triangle 199 84 146 85 35 29
-drawflush display1
-draw color 80 52 143 255 0 0
-draw triangle 116 54 42 2 160 50
-drawflush display1
-draw color 57 39 48 255 0 0
-draw triangle 35 82 187 66 105 6
-drawflush display1
-draw color 50 67 176 255 0 0
-draw triangle 187 20 159 37 44 50
-drawflush display1
-draw color 112 34 74 255 0 0
-draw triangle 197 10 197 99 163 46
-drawflush display1
-draw color 177 157 147 255 0 0
-draw triangle 28 124 20 88 128 90
-drawflush display1
-draw color 230 169 132 255 0 0
-draw triangle 151 179 130 195 125 136
-drawflush display1
-draw color 178 125 67 255 0 0
-draw triangle 167 194 124 199 48 181
-drawflush display1
-draw color 110 93 115 255 0 0
-draw triangle 81 63 63 176 92 144
-drawflush display1
-draw color 86 32 153 255 0 0
-draw triangle 145 9 63 15 7 3
-drawflush display1
-draw color 146 56 104 255 0 0
-draw triangle 50 10 4 148 4 10
-drawflush display1
-draw color 193 94 77 255 0 0
-draw triangle 82 22 115 26 100 39
-drawflush display1
-draw color 73 29 44 255 0 0
-draw triangle 156 29 199 38 190 73
-drawflush display1
-draw color 207 131 91 255 0 0
-draw triangle 171 185 192 142 197 157
-drawflush display1
-draw color 186 141 99 255 0 0
-draw triangle 45 181 31 73 33 197
-drawflush display1
-draw color 185 51 90 255 0 0
-draw triangle 2 87 2 182 12 92
-drawflush display1
-draw color 152 38 80 255 0 0
-draw triangle 114 73 109 74 92 65
-drawflush display1
-draw color 117 102 94 255 0 0
-draw triangle 40 5 80 61 58 39
-drawflush display1
-draw color 123 117 96 255 0 0
-draw triangle 36 75 2 150 12 37
-drawflush display1
-draw color 181 132 119 255 0 0
-draw triangle 111 140 0 62 15 119
-drawflush display1
-draw color 62 56 58 255 0 0
-draw triangle 173 75 153 40 67 87
-drawflush display1
-draw color 171 162 122 255 0 0
-draw triangle 191 153 196 187 174 161
-drawflush display1
-draw color 131 32 42 255 0 0
-draw triangle 64 3 194 2 130 20
-drawflush display1
-draw color 158 119 111 255 0 0
-draw triangle 5 49 49 25 58 60
-drawflush display1
-draw color 131 157 155 255 0 0
-draw triangle 5 178 122 196 35 196
-drawflush display1
-draw color 83 91 101 255 0 0
-draw triangle 35 165 118 130 81 79
-drawflush display1
-draw color 109 82 88 255 0 0
-draw triangle 8 35 177 22 103 8
-drawflush display1
-draw color 210 184 137 255 0 0
-draw triangle 164 89 128 182 172 130
-drawflush display1
-draw color 161 148 93 255 0 0
-draw triangle 199 112 187 173 184 30
-drawflush display1
-draw color 179 157 130 255 0 0
-draw triangle 100 86 24 121 97 113
-drawflush display1
-draw color 79 15 67 255 0 0
-draw triangle 61 18 122 13 171 1
-drawflush display1
-draw color 119 41 138 255 0 0
-draw triangle 119 57 64 119 98 122
-drawflush display1
+stop
